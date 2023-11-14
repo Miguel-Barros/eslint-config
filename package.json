@@ -1,12 +1,16 @@
 {
-  "name": "fppl",
-  "version": "0.1.0",
+  "name": "Federação Paulista de Pesca e Lançamento",
+  "version": "1.0.0",
   "private": true,
+  "author": {
+    "name": "Miguel Natan B. de Barros"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "check": "tsc --noEmit && next lint --fix"
   },
   "dependencies": {
     "react": "^18",
