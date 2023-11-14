@@ -1,13 +1,10 @@
 {
   "name": "@miguel-barros/eslint-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": false,
   "description": "ESLint configuration for Miguel B.",
   "main": "index.js",
   "license": "MIT",
-  "repository": {
-    "url": "miguel-barros/eslint-config"
-  },
   "peerDependencies": {
     "eslint": "^8.0.0",
     "typescript": ">=4"
